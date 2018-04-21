@@ -1,7 +1,7 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
 
-import { CardsComponent } from './cards.component';
+import { EmpresasComponent } from './empresas.component';
 import { FormsComponent } from './forms.component';
 import { SwitchesComponent } from './switches.component';
 import { TablesComponent } from './tables.component';
@@ -17,14 +17,14 @@ const routes: Routes = [
   {
     path: '',
     data: {
-      title: 'Base'
+      title: 'Gestor'
     },
     children: [
       {
-        path: 'cards',
-        component: CardsComponent,
+        path: 'empresas',
+        component: EmpresasComponent,
         data: {
-          title: 'Cards'
+          title: 'Empresas'
         }
       },
       {

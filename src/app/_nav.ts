@@ -14,9 +14,9 @@ export const navItems = [
     icon: 'fa fa-certificate',
     children: [
       {
-        name: 'Cards',
-        url: '/base/cards',
-        icon: 'icon-puzzle'
+        name: 'Empresas',
+        url: '/base/empresas',
+        icon: 'fa fa-industry'
       },
       {
         name: 'Carousels',
